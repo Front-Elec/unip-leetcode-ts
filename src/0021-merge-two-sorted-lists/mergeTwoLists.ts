@@ -1,12 +1,5 @@
 // #21 - Merge Two Sorted Lists
 // https://leetcode.com/problems/merge-two-sorted-lists/
-// Dificultad: Easy
-// Complejidad Tiempo: O(m + n) — visitamos cada nodo exactamente una vez
-// Complejidad Espacio: O(1) — re-enlazamos punteros, no creamos nodos nuevos (salvo el centinela)
-
-/**
- * Nodo de lista enlazada individual.
- */
 export class ListNode {
   val: number;
   next: ListNode | null;
@@ -17,19 +10,6 @@ export class ListNode {
   }
 }
 
-/**
- * Fusiona dos listas enlazadas ordenadas en una sola lista ordenada.
- *
- * Estrategia — Iterativa con nodo centinela:
- *  - Usamos un nodo dummy para evitar casos especiales en la cabeza.
- *  - En cada paso comparamos los valores de l1 y l2, enlazamos el menor
- *    al resultado y avanzamos ese puntero.
- *  - Al terminar uno de los dos, enchufamos el resto del otro directamente.
- *
- * @param list1 - cabeza de la primera lista ordenada (ascendente)
- * @param list2 - cabeza de la segunda lista ordenada (ascendente)
- * @returns cabeza de la lista fusionada y ordenada
- */
 export function mergeTwoLists(
   list1: ListNode | null,
   list2: ListNode | null,
