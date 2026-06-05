@@ -8,8 +8,8 @@ Soluciones optimizadas a problemas de LeetCode utilizando **TypeScript** con tip
 
 | Estudiante | Ejercicios Asignados |
 | :--- | :--- |
-| **Integrante A** | #1, #2, #3, #4, #5 |
-| **Integrante B (Tú)** | #20, #21, #53, #121, #704 |
+| **Integrante A - Alejandro Rodriguez** | #1, #2, #3, #4, #5 |
+| **Integrante B -Niyerieth Ruiz** | #20, #21, #53, #121, #704 |
 
 ---
 
